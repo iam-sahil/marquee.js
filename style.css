@@ -1,0 +1,14 @@
+.marquee {
+    overflow: hidden;
+    display: flex;
+    background-color: var(--accent-color);
+    border-bottom: var(--border);
+    border-top: var(--border);
+    color: #030104;
+}
+.marquee h1 {
+    margin-top: 1rem;
+    font-size: 6rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
